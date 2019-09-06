@@ -96,28 +96,29 @@
 # 10. Create a Puppy class. It should have properties name and color.
 # Create a program that will ask a user to enter the name,
 # then the color of a puppy until they enter 'q' to quit. Put each entry in an array.
-class Puppy:
-    def __init__(self, name, color):
-        self.name = name
-        self.color = color
+# class Puppy:
+#     def __init__(self, name, color):
+#         self.name = name
+#         self.color = color
+#
+#
+# def newPuppy():
+#     userInput = ''
+#     while userInput != 'q':
+#         emptyArray = []
+#         userInput = input("Ready to quit hit 'q' ")
+#         userName = input("enter the name ")
+#         userColor = input("enter the color ")
+#         emptyArray.append(userName)
+#         emptyArray.append(userColor)
+#
+#     print(emptyArray)
+#
+#
+# newPuppy()
 
-
-def newPuppy():
-    userInput = ''
-    while userInput != 'q':
-        emptyArray = []
-        userInput = input("Ready to quit hit 'q' ")
-        userName = input("enter the name ")
-        userColor = input("enter the color ")
-        emptyArray.append(userName)
-        emptyArray.append(userColor)
-
-    print(emptyArray)
-
-
-newPuppy()
-
-# todo <-- the code below was an attempt to make the function work from within the class 
+# todo <-- the code below was an attempt @ #10 to make the function work from within the class
+# so just ignore this or make fun of it, whichever  
 #         def newPuppy():
 #                 userInput = ''
 #                 while userInput != 'q':
