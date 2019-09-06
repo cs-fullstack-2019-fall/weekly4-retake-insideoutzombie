@@ -2,70 +2,85 @@ Write in one or more topics for each question using the following topics: Variab
 
 #1 Topic:_____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Variables
 Error Messages:
 
 
 
 #2 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Variables, Conditionals
 Error Messages:
 
 
 
 #3 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+For Loops
 Error Messages:
 
 
 
 #4 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Variables, While Loop
 Error Messages:
 
 
 
 #5 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Array, For Loop
 Error Messages:
 
 
 
 #6 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Function,
 Error Messages:
 
 
 
 #7 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+Class, Variables
 Error Messages:
 
 
 
 #8 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+function, array, Variables
 Error Messages:
-
+Traceback (most recent call last):
+  File "index.py", line 89, in <module>
+    someArray("David")
+  File "index.py", line 87, in someArray
+    return(string + 's')
+TypeError: can only concatenate list (not "str") to list
 
 
 #9 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+function, array, Variables
 Error Messages:
+Traceback (most recent call last):
+  File "index.py", line 93, in <module>
+    newParam(2)
+  File "index.py", line 90, in newParam
+    print(index[numArray])
+TypeError: 'int' object is not subscriptable
 
 
 
 #10 Topic: _____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
-
+class, function, Variables
 Error Messages:
-
-
+Traceback (most recent call last):
+  File "index.py", line 118, in <module>
+    newPuppy()
+  File "index.py", line 112, in newPuppy
+    userColor = userInput ("enter the color")
+TypeError: 'str' object is not callable
